@@ -1,0 +1,13 @@
+# Development files
+tests/
+coverage/
+node_modules/
+.archive/
+
+# Configuration files
+tsconfig.json
+jest.config.cjs
+.vscode/
+
+# Miscellaneous
+*.log
