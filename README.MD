@@ -152,7 +152,7 @@ if (postResponse) {
 
 ## API Documentation
 
-TODO
+[Docs](https://ocubist.github.io/http-request-handler/)
 
 ## License
 
