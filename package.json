@@ -5,13 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "new-project": "npm install zod && npm install --save-dev @types/jest jest rimraf ts-jest ts-node typescript",
     "build": "rimraf dist && tsc",
     "publishProject": "npm run build && npm publish --access public",
     "test": "jest --config jest.config.js --detectOpenHandles",
     "test:watch": "jest --config jest.config.js --watch",
-    "clean-install": "rimraf node_modules dist && npm install && npm run build",
-    "install-latest": "npm install @ocubist/error-alchemy@latest"
+    "docs": "typedoc",
+    "git-log": "git log --pretty=format:\"%h - %an, %ar : %s\" > coverage/commit_history.txt"
   },
   "keywords": [],
   "author": "ocubist",

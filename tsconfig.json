@@ -31,14 +31,12 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"] // Specifies library files to be included in the compilation
   },
   "include": [
-    "src/**/*", // Include all files in the src directory
-    ".archive/src/helpers/addQueryParamsToUrl.ts"
+    "src/**/*" // Include all files in the src directory
   ],
   "exclude": [
-    "node_modules", // Exclude node_modules from compilation
-    "dist", // Exclude dist from compilation to prevent recursion
-    "src/**/*.test.ts", // Exclude Test-Files inside src
     "src/tests",
-    ".archive"
+    "src/**/*.test.ts", // Exclude Test-Files inside src
+    "src/play",
+    "src/**/*.play.ts"
   ]
 }

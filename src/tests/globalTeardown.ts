@@ -1,5 +1,4 @@
 // globalTeardown.ts
-import { delay } from "@ocubist/utils";
 import { stopServer } from "./test-server";
 
 export default async function globalTeardown() {
